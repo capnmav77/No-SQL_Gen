@@ -488,10 +488,6 @@
     "label": 1
   },
   {
-    "text": "|| sleep(5)",
-    "label": 1
-  },
-  {
     "text": "%27%3B%20return%20%27%27%20==%20%27",
     "label": 1
   },
@@ -509,10 +505,6 @@
   },
   {
     "text": "|| sleep(5)",
-    "label": 1
-  },
-  {
-    "text": "|| 1==1",
     "label": 1
   },
   {
@@ -1020,11 +1012,11 @@
     "label": 0
   },
   {
-    "text": "{\"type\": \"user\", \"name\": \"user\", \"roles\": [\"user\"], \"password\": \"password\"}",
+    "text": "{\"type\": \"user\", \"name\": \"user\", \"roles\": [\"user\"], \"password\": \"user\"}",
     "label": 0
   },
   {
-    "text": "{ \"$and\": [ {\"username\": \"user\"}, {\"isAdmin\": false} ]}",
+    "text": "{ \"$and\": [ {\"username\": \"test\"}, {\"isAdmin\": false} ]}",
     "label": 0
   },
   {
@@ -1116,7 +1108,7 @@
     "label": 0
   },
   {
-    "text": "{ \"$and\": [ {\"username\": \"user\"}, {\"isAdmin\": true} ]}",
+    "text": "{ \"$and\": [ {\"username\": \"user\"}, {\"isAdmin\": false} ]}",
     "label": 0
   },
   {
@@ -1492,10 +1484,6 @@
     "label": 1
   },
   {
-    "text": "{\"name\": {\"$type\": 32}}",
-    "label": 0
-  },
-  {
     "text": "{\"name\": {\"$type\": 33}}",
     "label": 0
   },
@@ -1598,5 +1586,17 @@
   {
     "text": "{\"user\": {\"$in\": [\"user\", \"admin\", \"guest\", \"test\", \"hacker\", \"Admin123\"]}, \"password\": \"benignpassword\"}",
     "label": 0
+  },
+  {
+    "text": "{\"$or\": [{},{\"foo\":\"1\"}]}",
+    "label": 1
+  },
+  {
+    "text": "{\"$where\":  \"return true\"}",
+    "label": 1
+  },
+  {
+    "text": "{\"$in\": []}",
+    "label": 1
   }
 ]
