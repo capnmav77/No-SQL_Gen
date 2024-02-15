@@ -42,5 +42,3 @@ Contributions to enhance the dataset, such as adding new entries or improving th
 ## Contact
 
 For any questions or concerns regarding this dataset, please contact the maintainers through the GitHub issue tracker.
-
----
