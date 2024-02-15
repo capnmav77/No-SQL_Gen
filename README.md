@@ -39,10 +39,6 @@ For a deeper understanding of NoSQL injection attacks, please refer to the follo
 
 Contributions to enhance the dataset, such as adding new entries or improving the annotation, are welcome. Please submit pull requests or open issues to discuss improvements.
 
-## License
-
-This dataset is released under the Creative Commons Zero v1.0 Universal license, making it free to use for both academic and commercial purposes.
-
 ## Contact
 
 For any questions or concerns regarding this dataset, please contact the maintainers through the GitHub issue tracker.
